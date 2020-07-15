@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE070EFF245B6EDD00E348CE /* DetailMNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE070EFE245B6EDD00E348CE /* DetailMNController.swift */; };
+		BE070F01245B7BC500E348CE /* DetailMotifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE070F00245B7BC500E348CE /* DetailMotifCollectionViewCell.swift */; };
+		BE070F03245B7F5900E348CE /* HasGambarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE070F02245B7F5900E348CE /* HasGambarController.swift */; };
+		BE4F8BA8245F4856005318C1 /* MotifNusantara.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F8BA7245F4856005318C1 /* MotifNusantara.swift */; };
+		BE4F8BAC24649028005318C1 /* MotifTenun.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F8BAB24649028005318C1 /* MotifTenun.swift */; };
+		BE4F8BAE2468B7F4005318C1 /* MotifSayaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F8BAD2468B7F4005318C1 /* MotifSayaCollectionViewCell.swift */; };
+		BE4F8BB02468B882005318C1 /* MotifSayaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F8BAF2468B882005318C1 /* MotifSayaController.swift */; };
+		BE5F65D124B397FF00396EE5 /* GenKristikController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F65D024B397FF00396EE5 /* GenKristikController.swift */; };
+		BE5F65D324B61CBA00396EE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F65D224B61CBA00396EE5 /* LoginViewController.swift */; };
+		BE6E43E224BCD81D0045F496 /* SetupKristikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E43E124BCD81D0045F496 /* SetupKristikViewController.swift */; };
+		BE7A4E52246B467D00D2DCF3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A4E51246B467D00D2DCF3 /* TabBarController.swift */; };
+		BE801E16240FA5CC00CE01F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE801E15240FA5CC00CE01F3 /* AppDelegate.swift */; };
+		BE801E18240FA5CC00CE01F3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE801E17240FA5CC00CE01F3 /* HomeController.swift */; };
+		BE801E1B240FA5CC00CE01F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE801E19240FA5CC00CE01F3 /* Main.storyboard */; };
+		BE801E1D240FA5CD00CE01F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE801E1C240FA5CD00CE01F3 /* Assets.xcassets */; };
+		BE801E20240FA5CD00CE01F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE801E1E240FA5CD00CE01F3 /* LaunchScreen.storyboard */; };
+		BE82CE3E24AE399B001107C0 /* GenerateMotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82CE3D24AE399B001107C0 /* GenerateMotif.swift */; };
+		BE82CE4024AE3C25001107C0 /* GenMotifController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82CE3F24AE3C25001107C0 /* GenMotifController.swift */; };
+		BE8E978324B9E01B00DAC6BE /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978224B9E01B00DAC6BE /* Media.swift */; };
+		BE8E978524B9FDF300DAC6BE /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978424B9FDF300DAC6BE /* Users.swift */; };
+		BE8E978824B9FEE200DAC6BE /* APIModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978724B9FEE200DAC6BE /* APIModule.swift */; };
+		BE8E978A24B9FFB700DAC6BE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978924B9FFB700DAC6BE /* NetworkService.swift */; };
+		BE8E978C24BA001F00DAC6BE /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978B24BA001F00DAC6BE /* Register.swift */; };
+		BE8E978E24BA008700DAC6BE /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978D24BA008700DAC6BE /* ErrorResponse.swift */; };
+		BE8E979024BA00A600DAC6BE /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E978F24BA00A600DAC6BE /* AlertService.swift */; };
+		BE8E979224BA1C5500DAC6BE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E979124BA1C5500DAC6BE /* RegisterViewController.swift */; };
+		BE96A84D24BE4B8700B6DB45 /* MotifSayaNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96A84C24BE4B8700B6DB45 /* MotifSayaNavigationViewController.swift */; };
+		BE972FDD2458B35600D66354 /* MotifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE972FDC2458B35600D66354 /* MotifCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE070EFE245B6EDD00E348CE /* DetailMNController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMNController.swift; sourceTree = "<group>"; };
+		BE070F00245B7BC500E348CE /* DetailMotifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMotifCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE070F02245B7F5900E348CE /* HasGambarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasGambarController.swift; sourceTree = "<group>"; };
+		BE4F8BA7245F4856005318C1 /* MotifNusantara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifNusantara.swift; sourceTree = "<group>"; };
+		BE4F8BAB24649028005318C1 /* MotifTenun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifTenun.swift; sourceTree = "<group>"; };
+		BE4F8BAD2468B7F4005318C1 /* MotifSayaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifSayaCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE4F8BAF2468B882005318C1 /* MotifSayaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifSayaController.swift; sourceTree = "<group>"; };
+		BE5F65D024B397FF00396EE5 /* GenKristikController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenKristikController.swift; sourceTree = "<group>"; };
+		BE5F65D224B61CBA00396EE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BE6E43E124BCD81D0045F496 /* SetupKristikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupKristikViewController.swift; sourceTree = "<group>"; };
+		BE7A4E51246B467D00D2DCF3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BE801E12240FA5CC00CE01F3 /* DiTenun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiTenun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE801E15240FA5CC00CE01F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE801E17240FA5CC00CE01F3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BE801E1A240FA5CC00CE01F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE801E1C240FA5CD00CE01F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE801E1F240FA5CD00CE01F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE801E21240FA5CD00CE01F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE82CE3D24AE399B001107C0 /* GenerateMotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMotif.swift; sourceTree = "<group>"; };
+		BE82CE3F24AE3C25001107C0 /* GenMotifController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenMotifController.swift; sourceTree = "<group>"; };
+		BE8E978224B9E01B00DAC6BE /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		BE8E978424B9FDF300DAC6BE /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		BE8E978724B9FEE200DAC6BE /* APIModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModule.swift; sourceTree = "<group>"; };
+		BE8E978924B9FFB700DAC6BE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BE8E978B24BA001F00DAC6BE /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		BE8E978D24BA008700DAC6BE /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		BE8E978F24BA00A600DAC6BE /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		BE8E979124BA1C5500DAC6BE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BE96A84C24BE4B8700B6DB45 /* MotifSayaNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifSayaNavigationViewController.swift; sourceTree = "<group>"; };
+		BE972FDC2458B35600D66354 /* MotifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE801E0F240FA5CC00CE01F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE070F05245F3FBE00E348CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F8BA7245F4856005318C1 /* MotifNusantara.swift */,
+				BE4F8BAB24649028005318C1 /* MotifTenun.swift */,
+				BE82CE3D24AE399B001107C0 /* GenerateMotif.swift */,
+				BE8E978224B9E01B00DAC6BE /* Media.swift */,
+				BE8E978424B9FDF300DAC6BE /* Users.swift */,
+				BE8E978B24BA001F00DAC6BE /* Register.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE17420C2417D17E00521C92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE801E17240FA5CC00CE01F3 /* HomeController.swift */,
+				BE070EFE245B6EDD00E348CE /* DetailMNController.swift */,
+				BE070F02245B7F5900E348CE /* HasGambarController.swift */,
+				BE4F8BAF2468B882005318C1 /* MotifSayaController.swift */,
+				BE7A4E51246B467D00D2DCF3 /* TabBarController.swift */,
+				BE82CE3F24AE3C25001107C0 /* GenMotifController.swift */,
+				BE5F65D024B397FF00396EE5 /* GenKristikController.swift */,
+				BE5F65D224B61CBA00396EE5 /* LoginViewController.swift */,
+				BE8E979124BA1C5500DAC6BE /* RegisterViewController.swift */,
+				BE6E43E124BCD81D0045F496 /* SetupKristikViewController.swift */,
+				BE96A84C24BE4B8700B6DB45 /* MotifSayaNavigationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE801E09240FA5CC00CE01F3 = {
+			isa = PBXGroup;
+			children = (
+				BE801E14240FA5CC00CE01F3 /* DiTenun */,
+				BE801E13240FA5CC00CE01F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE801E13240FA5CC00CE01F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE801E12240FA5CC00CE01F3 /* DiTenun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE801E14240FA5CC00CE01F3 /* DiTenun */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E978624B9FECE00DAC6BE /* Resources */,
+				BE070F05245F3FBE00E348CE /* Model */,
+				BECF4B10244F2E85003B68E5 /* View */,
+				BE17420C2417D17E00521C92 /* Controller */,
+				BE801E15240FA5CC00CE01F3 /* AppDelegate.swift */,
+				BE801E19240FA5CC00CE01F3 /* Main.storyboard */,
+				BE801E1C240FA5CD00CE01F3 /* Assets.xcassets */,
+				BE801E1E240FA5CD00CE01F3 /* LaunchScreen.storyboard */,
+				BE801E21240FA5CD00CE01F3 /* Info.plist */,
+			);
+			path = DiTenun;
+			sourceTree = "<group>";
+		};
+		BE8E978624B9FECE00DAC6BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E978724B9FEE200DAC6BE /* APIModule.swift */,
+				BE8E978924B9FFB700DAC6BE /* NetworkService.swift */,
+				BE8E978D24BA008700DAC6BE /* ErrorResponse.swift */,
+				BE8E978F24BA00A600DAC6BE /* AlertService.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BECF4B10244F2E85003B68E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE972FDC2458B35600D66354 /* MotifCollectionViewCell.swift */,
+				BE070F00245B7BC500E348CE /* DetailMotifCollectionViewCell.swift */,
+				BE4F8BAD2468B7F4005318C1 /* MotifSayaCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE801E11240FA5CC00CE01F3 /* DiTenun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE801E24240FA5CD00CE01F3 /* Build configuration list for PBXNativeTarget "DiTenun" */;
+			buildPhases = (
+				BE801E0E240FA5CC00CE01F3 /* Sources */,
+				BE801E0F240FA5CC00CE01F3 /* Frameworks */,
+				BE801E10240FA5CC00CE01F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiTenun;
+			productName = DiTenun;
+			productReference = BE801E12240FA5CC00CE01F3 /* DiTenun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE801E0A240FA5CC00CE01F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Reynaldo Cristinus Hutahaean";
+				TargetAttributes = {
+					BE801E11240FA5CC00CE01F3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BE801E0D240FA5CC00CE01F3 /* Build configuration list for PBXProject "DiTenun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE801E09240FA5CC00CE01F3;
+			productRefGroup = BE801E13240FA5CC00CE01F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE801E11240FA5CC00CE01F3 /* DiTenun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE801E10240FA5CC00CE01F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE801E20240FA5CD00CE01F3 /* LaunchScreen.storyboard in Resources */,
+				BE801E1D240FA5CD00CE01F3 /* Assets.xcassets in Resources */,
+				BE801E1B240FA5CC00CE01F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE801E0E240FA5CC00CE01F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE96A84D24BE4B8700B6DB45 /* MotifSayaNavigationViewController.swift in Sources */,
+				BE8E979024BA00A600DAC6BE /* AlertService.swift in Sources */,
+				BE801E18240FA5CC00CE01F3 /* HomeController.swift in Sources */,
+				BE070F01245B7BC500E348CE /* DetailMotifCollectionViewCell.swift in Sources */,
+				BE8E978824B9FEE200DAC6BE /* APIModule.swift in Sources */,
+				BE82CE4024AE3C25001107C0 /* GenMotifController.swift in Sources */,
+				BE5F65D324B61CBA00396EE5 /* LoginViewController.swift in Sources */,
+				BE7A4E52246B467D00D2DCF3 /* TabBarController.swift in Sources */,
+				BE8E978E24BA008700DAC6BE /* ErrorResponse.swift in Sources */,
+				BE070F03245B7F5900E348CE /* HasGambarController.swift in Sources */,
+				BE8E978324B9E01B00DAC6BE /* Media.swift in Sources */,
+				BE82CE3E24AE399B001107C0 /* GenerateMotif.swift in Sources */,
+				BE6E43E224BCD81D0045F496 /* SetupKristikViewController.swift in Sources */,
+				BE070EFF245B6EDD00E348CE /* DetailMNController.swift in Sources */,
+				BE8E978524B9FDF300DAC6BE /* Users.swift in Sources */,
+				BE4F8BAC24649028005318C1 /* MotifTenun.swift in Sources */,
+				BE8E979224BA1C5500DAC6BE /* RegisterViewController.swift in Sources */,
+				BE5F65D124B397FF00396EE5 /* GenKristikController.swift in Sources */,
+				BE4F8BB02468B882005318C1 /* MotifSayaController.swift in Sources */,
+				BE8E978C24BA001F00DAC6BE /* Register.swift in Sources */,
+				BE801E16240FA5CC00CE01F3 /* AppDelegate.swift in Sources */,
+				BE8E978A24B9FFB700DAC6BE /* NetworkService.swift in Sources */,
+				BE972FDD2458B35600D66354 /* MotifCollectionViewCell.swift in Sources */,
+				BE4F8BA8245F4856005318C1 /* MotifNusantara.swift in Sources */,
+				BE4F8BAE2468B7F4005318C1 /* MotifSayaCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE801E19240FA5CC00CE01F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE801E1A240FA5CC00CE01F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE801E1E240FA5CD00CE01F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE801E1F240FA5CD00CE01F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE801E22240FA5CD00CE01F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE801E23240FA5CD00CE01F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE801E25240FA5CD00CE01F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8XSYAW96H;
+				INFOPLIST_FILE = DiTenun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reynhthaean.DiTenun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE801E26240FA5CD00CE01F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8XSYAW96H;
+				INFOPLIST_FILE = DiTenun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reynhthaean.DiTenun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE801E0D240FA5CC00CE01F3 /* Build configuration list for PBXProject "DiTenun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE801E22240FA5CD00CE01F3 /* Debug */,
+				BE801E23240FA5CD00CE01F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE801E24240FA5CD00CE01F3 /* Build configuration list for PBXNativeTarget "DiTenun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE801E25240FA5CD00CE01F3 /* Debug */,
+				BE801E26240FA5CD00CE01F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE801E0A240FA5CC00CE01F3 /* Project object */;
+}
